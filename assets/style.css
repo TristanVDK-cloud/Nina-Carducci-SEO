@@ -212,8 +212,8 @@ body {
 	width: 374px;
 	height: 329px;
 	position: absolute;
-	bottom: 0;
-	right: 0;
+	bottom: 274px;
+	right: 29px;
 	z-index: -1;
 }
 .form-container {
@@ -247,6 +247,19 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+.business-info {
+	margin-top: 30px;
+	padding-top: 20px;
+	border-top: solid 1px;
+}
+.business-info p {
+	margin-bottom: 15px;
+}
+
+.business-info h2 {
+	margin-bottom: 15px;
 }
 
 @media all and (max-width: 1180px) {
